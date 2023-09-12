@@ -4,7 +4,8 @@
 machines = {
   "master" => {"memory" => "1024", "cpu" => "1", "ip" => "100", "image" => "debian/jessie64"},
   "node01" => {"memory" => "1024", "cpu" => "1", "ip" => "101", "image" => "debian/jessie64"},
-  "node02" => {"memory" => "1024", "cpu" => "1", "ip" => "102", "image" => "debian/jessie64"}
+  "node02" => {"memory" => "1024", "cpu" => "1", "ip" => "102", "image" => "debian/jessie64"},
+  "node03" => {"memory" => "1024", "cpu" => "1", "ip" => "103", "image" => "debian/jessie64"}
 }
 
 Vagrant.configure("2") do |config|
