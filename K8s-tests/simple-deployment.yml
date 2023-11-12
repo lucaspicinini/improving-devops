@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app-html
-        image: httpd:latest
+        image: httpd:2
         ports:
         - containerPort: 80
 
